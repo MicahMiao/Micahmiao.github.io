@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-06T16:28:44.442Z</updated>
+  <updated>2018-11-10T13:39:24.659Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建完成</title>
+    <link href="http://yoursite.com/2018/11/10/%E6%90%AD%E5%BB%BA%E5%AE%8C%E6%88%90/"/>
+    <id>http://yoursite.com/2018/11/10/搭建完成/</id>
+    <published>2018-11-10T13:04:34.000Z</published>
+    <updated>2018-11-10T13:39:24.659Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一篇自己写的东西&quot;&gt;&lt;a href=&quot;#第一篇自己写的东西&quot; class=&quot;headerlink&quot; title=&quot;第一篇自己写的东西&quot;&gt;&lt;/a&gt;第一篇自己写的东西&lt;/h1&gt;&lt;p&gt;没什么好说的,就是简单的记录一下生活以及其他的事情&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="基础教程" scheme="http://yoursite.com/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
