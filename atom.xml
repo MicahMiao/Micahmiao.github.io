@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-10T13:39:24.659Z</updated>
+  <updated>2018-11-10T17:19:28.415Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>搭建完成</title>
-    <link href="http://yoursite.com/2018/11/10/%E6%90%AD%E5%BB%BA%E5%AE%8C%E6%88%90/"/>
-    <id>http://yoursite.com/2018/11/10/搭建完成/</id>
-    <published>2018-11-10T13:04:34.000Z</published>
-    <updated>2018-11-10T13:39:24.659Z</updated>
+    <title>Buliding Hexo(1)</title>
+    <link href="http://yoursite.com/2018/11/11/Buliding-Hexo-1/"/>
+    <id>http://yoursite.com/2018/11/11/Buliding-Hexo-1/</id>
+    <published>2018-11-10T17:12:59.000Z</published>
+    <updated>2018-11-10T17:19:28.415Z</updated>
     
     <summary type="html">
     
@@ -29,17 +29,19 @@
       
         
         
-          &lt;h1 id=&quot;第一篇自己写的东西&quot;&gt;&lt;a href=&quot;#第一篇自己写的东西&quot; class=&quot;headerlink&quot; title=&quot;第一篇自己写的东西&quot;&gt;&lt;/a&gt;第一篇自己写的东西&lt;/h1&gt;&lt;p&gt;没什么好说的,就是简单的记录一下生活以及其他的事情&lt;/p&gt;
-&lt;h2
+          &lt;p&gt;本篇文章作于2018年11月11日，是个人的第一篇正式博客。万事开头难，希望能坚持写博客。&lt;/p&gt;
+&lt;h1 id=&quot;Hexo-博客系统的基本搭建&quot;&gt;&lt;a href=&quot;#Hexo-博客系统的基本搭建&quot; class=&quot;headerlink&quot; title=&quot;Hexo
         
       
     
     </summary>
     
-      <category term="基础教程" scheme="http://yoursite.com/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+      <category term="Novel technology" scheme="http://yoursite.com/categories/Novel-technology/"/>
     
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Base Blog" scheme="http://yoursite.com/tags/Base-Blog/"/>
     
   </entry>
   
