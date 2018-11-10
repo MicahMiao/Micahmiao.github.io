@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[搭建完成]]></title>
+    <url>%2F2018%2F11%2F10%2F%E6%90%AD%E5%BB%BA%E5%AE%8C%E6%88%90%2F</url>
+    <content type="text"><![CDATA[第一篇自己写的东西没什么好说的,就是简单的记录一下生活以及其他的事情 搭建blog使用了hexo搭建静态的blog页面配置了一些常用功能]]></content>
+      <categories>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F11%2F06%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post123456789$ hexo new "My New Post"``` More info: [Writing](https://hexo.io/docs/writing.html)### Run server``` bash$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$]]></content>
+  </entry>
+</search>
