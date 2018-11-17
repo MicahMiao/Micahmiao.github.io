@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CPU的历史发展(1)]]></title>
+    <url>%2F2018%2F11%2F17%2FCPU%E7%9A%84%E5%8E%86%E5%8F%B2%E5%8F%91%E5%B1%95-1%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[Buliding Hexo(1)]]></title>
     <url>%2F2018%2F11%2F11%2FBuliding-Hexo-1%2F</url>
-    <content type="text"><![CDATA[本篇文章作于2018年11月11日，是个人的第一篇正式博客。万事开头难，希望能坚持写博客。 Hexo 博客系统的基本搭建Hexo 是什么Hexo 优劣分析Hexo 部署Hexo 注意事项]]></content>
+    <content type="text"><![CDATA[Hexo 博客系统的基本搭建再尝试过Django、WordPress搭建自己的博客之后，由于自己审美是真的一般，选了Hexo来作为自己的blog平台，下面介绍一下Hexo的一些相关知识吧。 Hexo 是什么首先，先给大家展示一下 Hexo 官方对于 Hexo 的定义：Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 Hexo 的关键词： Markdown 静态 快速简洁且高效 这里稍微补充一下 Markdown 是什么： Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。 Hexo 优劣分析Hexo 部署Hexo 注意事项]]></content>
       <categories>
         <category>Novel technology</category>
       </categories>
