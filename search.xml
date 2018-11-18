@@ -8,7 +8,7 @@
   <entry>
     <title><![CDATA[Buliding Hexo(1)]]></title>
     <url>%2F2018%2F11%2F11%2FBuliding-Hexo-1%2F</url>
-    <content type="text"><![CDATA[Hexo 博客系统的基本搭建再尝试过Django、WordPress搭建自己的博客之后，由于自己审美是真的一般，选了Hexo来作为自己的blog平台，下面介绍一下Hexo的一些相关知识吧。 Hexo 是什么首先，先给大家展示一下 Hexo 官方对于 Hexo 的定义：Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 Hexo 的关键词： Markdown 静态 快速简洁且高效 这里稍微补充一下 Markdown 是什么： Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。 Hexo 优劣分析Hexo 部署Hexo 注意事项]]></content>
+    <content type="text"><![CDATA[Hexo 博客系统的基本搭建再尝试过Django、WordPress搭建自己的博客之后，由于审美以及操作方便，选了Hexo来作为自己的blog平台，下面介绍一下Hexo的一些相关知识吧。 Hexo 是什么首先，先给大家展示一下 Hexo 官方对于 Hexo 的定义： Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 这里稍微补充一下 Markdown 是什么： Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。 Markdown 是我在接触过Tex后的第二种标记语言。于我个人认识而言，在能熟练使用标记语言的常用指令后，对于文章格式的控制力以及书写速度来讲，标记文本远优秀于 Word 这一类“所见即所得”的编辑方式。 那么 Hexo 为什么可以说自己是一个快速、简洁而高效的博客框架？ 其实我认为这句话必须要你姐接触过类似于 WordPress 的动态博客平台( 私认为WordPress已经很简化了博客平台的搭建以及维护 )后，你会体会到Hexo的优秀，具体的对比我将放在 Next section 。 静态这个概念是这样的，虽然你在本地只是编辑了一个 md 文件，但是你看到的博客网页是一个HTML静态网页，是 Hexo 进行了本地的渲染后再放在服务端供浏览。 静态网页比起动态网页在安全性、稳定性以及访问速度上都具有明显的优势。 Hexo 优劣分析为什么要使用 Hexo 作为自己的博客搭建平台？ 下面我将通过表单的形式来展示 Hexo 的特色： 采用的系统 Hexo Django WordPress Spring 学习使用成本 1 2 3 4 操作便捷度 1 2 3 4 Markdown 支持 1 0 0 1 Hexo 部署Hexo 注意事项]]></content>
       <categories>
         <category>Novel technology</category>
       </categories>

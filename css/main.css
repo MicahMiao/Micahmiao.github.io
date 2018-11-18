@@ -2030,7 +2030,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff13ff;
+  background: #95dff9;
 }
 .site-author-image {
   display: block;
@@ -3456,4 +3456,7 @@ body {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #a166ab;
+}
+.post-body p {
+  text-indent: 2em;
 }
