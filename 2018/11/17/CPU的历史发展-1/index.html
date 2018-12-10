@@ -125,18 +125,18 @@
 
 
 
-  <meta name="description" content="Time is running out">
+  <meta name="description" content="基本工具类说明主要对象1. DataBaseConnect 类功能：封装Mysql数据库各项操作 表1-1 DataBaseConnect成员变量表    变量名称 访问权限 数据类型 作用     connection private MySqlConnection 数据库连接对象   server private string 数据库IP地址信息   database private stri">
 <meta name="keywords" content="Data mining">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CPU的历史发展(1)">
+<meta property="og:title" content="记录一哈">
 <meta property="og:url" content="http://yoursite.com/2018/11/17/CPU的历史发展-1/index.html">
 <meta property="og:site_name" content="Micah&#39;s Blog">
-<meta property="og:description" content="Time is running out">
+<meta property="og:description" content="基本工具类说明主要对象1. DataBaseConnect 类功能：封装Mysql数据库各项操作 表1-1 DataBaseConnect成员变量表    变量名称 访问权限 数据类型 作用     connection private MySqlConnection 数据库连接对象   server private string 数据库IP地址信息   database private stri">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-17T12:29:20.053Z">
+<meta property="og:updated_time" content="2018-12-10T09:54:20.256Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CPU的历史发展(1)">
-<meta name="twitter:description" content="Time is running out">
+<meta name="twitter:title" content="记录一哈">
+<meta name="twitter:description" content="基本工具类说明主要对象1. DataBaseConnect 类功能：封装Mysql数据库各项操作 表1-1 DataBaseConnect成员变量表    变量名称 访问权限 数据类型 作用     connection private MySqlConnection 数据库连接对象   server private string 数据库IP地址信息   database private stri">
 
 
 
@@ -155,7 +155,7 @@
   };
 </script>
 
-  <title>CPU的历史发展(1) | Micah's Blog</title>
+  <title>记录一哈 | Micah's Blog</title>
   
 
 
@@ -405,7 +405,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CPU的历史发展(1)
+          <h1 class="post-title" itemprop="name headline">记录一哈
               
             
           </h1>
@@ -434,6 +434,22 @@
             
 
             
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-10 17:54:20" itemprop="dateModified" datetime="2018-12-10T17:54:20+08:00">2018-12-10</time>
+              
+            
           </span>
 
           
@@ -454,7 +470,7 @@
 
           
           
-             <span id="/2018/11/17/CPU的历史发展-1/" class="leancloud_visitors" data-flag-title="CPU的历史发展(1)">
+             <span id="/2018/11/17/CPU的历史发展-1/" class="leancloud_visitors" data-flag-title="记录一哈">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -479,7 +495,7 @@
                 
                   <span class="post-meta-item-text">Symbols count in article: </span>
                 
-                <span title="Symbols count in article">0</span>
+                <span title="Symbols count in article">6.5k</span>
               
 
               
@@ -493,7 +509,7 @@
                 
                   <span class="post-meta-item-text">Reading time &asymp;</span>
                 
-                <span title="Reading time">1 mins.</span>
+                <span title="Reading time">6 mins.</span>
               
             </div>
           
@@ -513,7 +529,822 @@
       
 
       
-        
+        <h1 id="基本工具类说明"><a href="#基本工具类说明" class="headerlink" title="基本工具类说明"></a>基本工具类说明</h1><h2 id="主要对象"><a href="#主要对象" class="headerlink" title="主要对象"></a>主要对象</h2><h3 id="1-DataBaseConnect-类"><a href="#1-DataBaseConnect-类" class="headerlink" title="1. DataBaseConnect 类"></a>1. DataBaseConnect 类</h3><p>功能：封装Mysql数据库各项操作</p>
+<p>表1-1 DataBaseConnect成员变量表</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">connection</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">MySqlConnection</td>
+<td style="text-align:center">数据库连接对象</td>
+</tr>
+<tr>
+<td style="text-align:center">server</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">数据库IP地址信息</td>
+</tr>
+<tr>
+<td style="text-align:center">database</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">数据库名称</td>
+</tr>
+<tr>
+<td style="text-align:center">uid</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">数据库连接用户ID</td>
+</tr>
+<tr>
+<td style="text-align:center">password</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">数据库连接密码</td>
+</tr>
+</tbody>
+</table>
+<p>表1-2 DataBaseConnect成员函数表</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">DataBaseConnect()</td>
+<td>从文件中读取相关数据库连接信息并初始化MySqlConnection对象</td>
+<td>函数耦合严重</td>
+</tr>
+<tr>
+<td style="text-align:center">setCommand(String command)</td>
+<td>封装MySqlCommand.ExecuteReader方法</td>
+<td>函数未被引用</td>
+</tr>
+<tr>
+<td style="text-align:center">closeDataReader(MySqlDataReader dataReader)</td>
+<td>关闭MySqlDataReader对象并关闭数据库链接</td>
+<td>函数未被引用</td>
+</tr>
+<tr>
+<td style="text-align:center">ExecuteScalaer(String command)</td>
+<td>封装 MySqlCommand.ExecuteScalar方法</td>
+<td>函数未被引用</td>
+</tr>
+<tr>
+<td style="text-align:center">Execute(String command)</td>
+<td>封装MySqlCommand.ExecuteNonQuery方法</td>
+<td>连接状态未判断即关闭</td>
+</tr>
+<tr>
+<td style="text-align:center">Quarry(String command)</td>
+<td>封装EMySqlCommand.ExecuteReader方法</td>
+<td>设置一个MySqlDataReader对象来返回查询结果，查询失败返回null</td>
+</tr>
+<tr>
+<td style="text-align:center">Close()</td>
+<td>关闭数据库连接</td>
+<td>规范</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-ProcessedData-类"><a href="#2-ProcessedData-类" class="headerlink" title="2. ProcessedData 类"></a>2. ProcessedData 类</h3><p>功能：数据的get、set操作封装</p>
+<p>表2-1 ProcessedData类成员对象</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"> leftAccelerationX</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚加速度数据X轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftAccelerationY</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚加速度数据Y轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftAccelerationZ</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚加速度数据Z轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> LeftGyroX</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚陀螺仪数据X轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> LeftGyroY</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚陀螺仪数据Y轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> LeftGyroZ</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚陀螺仪数据Z轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> LeftPressure_BigToe</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_FifthMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚第五趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_FourthMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚第四趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_MiddleMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚第三趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_SecondMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚第二趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_FirstMeatartsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚第一趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_InsideTheHeel</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚后跟内侧压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_OutsideTheHeel</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚后跟外侧压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_OutsideTheFoot</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚掌内侧压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> leftPressure_Voltage</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">左脚电压数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightAccelerationX</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚加速度数据X轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightAccelerationY</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚加速度数据Y轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightAccelerationZ</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚加速度数据Z轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightGyroX</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚陀螺仪数据X轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightGyroY</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚陀螺仪数据Y轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightGyroZ</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚陀螺仪数据Z轴</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_BigToe</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_FifthMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚第五趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_FourthMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚第四趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_MiddleMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚第三趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_SecondMetatarsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚第二趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_FirstMeatartsal</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚第一趾压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_InsideTheHeel</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚后跟内侧压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_OutsideTheHeel</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚后跟外侧压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_OutsideTheFoot</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚掌内侧压力传感器数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> rightPressure_Voltage</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ArrayList</td>
+<td style="text-align:center">右脚电压数据</td>
+</tr>
+<tr>
+<td style="text-align:center"> uniqueProcessData</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">static ProcessedData</td>
+<td style="text-align:center">单例模式的对象 </td>
+</tr>
+<tr>
+<td style="text-align:center"> Clear()</td>
+<td style="text-align:center">数据</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>表2-2 ProcessedData类成员函数</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">ProcessedData()</td>
+<td>默认构造函数</td>
+<td>Synchronized方法来使得各个数组属于线程安全（private）</td>
+</tr>
+<tr>
+<td style="text-align:center">GetInstance()</td>
+<td>创建类对象</td>
+<td>使用单例模式</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Clear()</td>
+<td>数据清空</td>
+<td>反射机制实现清空处理后的数据 </td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-SerialPortCommunication-类"><a href="#3-SerialPortCommunication-类" class="headerlink" title="3. SerialPortCommunication 类"></a>3. SerialPortCommunication 类</h3><p>功能：封装串口通信类</p>
+<p>表3-1 SerialPortCommunication成员变量</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">_continue</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">static bool</td>
+<td style="text-align:center">控制线程内用查询法读取数据</td>
+</tr>
+<tr>
+<td style="text-align:center">isReading</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">static bool</td>
+<td style="text-align:center">判断读函数是否退出</td>
+</tr>
+<tr>
+<td style="text-align:center">_serialPort</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">static SerialPort</td>
+<td style="text-align:center">实例化端口对象</td>
+</tr>
+<tr>
+<td style="text-align:center">serialPortData</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">static ArrayList</td>
+<td style="text-align:center">暂存从串口获取的数据</td>
+</tr>
+<tr>
+<td style="text-align:center">readThread</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Thread</td>
+<td style="text-align:center">读数据的线程</td>
+</tr>
+<tr>
+<td style="text-align:center">buffer</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">byte[]</td>
+<td style="text-align:center">缓存 byte 数组</td>
+</tr>
+<tr>
+<td style="text-align:center">motionBuffer</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">byte[]</td>
+<td style="text-align:center">缓存运动传感器数组</td>
+</tr>
+<tr>
+<td style="text-align:center">pressureBuffer</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">byte[]</td>
+<td style="text-align:center">缓存压力传感器数组</td>
+</tr>
+<tr>
+<td style="text-align:center">commandBuffer</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">byte[]</td>
+<td style="text-align:center">缓存命令的返回值</td>
+</tr>
+<tr>
+<td style="text-align:center">packageLength</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">单个数据包的长度(244)</td>
+</tr>
+<tr>
+<td style="text-align:center">packageHead</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">数据包头的位置？(0xFA)</td>
+</tr>
+<tr>
+<td style="text-align:center">motionPackageLength</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">运动传感器数据包长度(221)</td>
+</tr>
+<tr>
+<td style="text-align:center">pressurePackageLength</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">压力传感器数据包长度(205)</td>
+</tr>
+<tr>
+<td style="text-align:center">processedData</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">ProcessedData</td>
+<td style="text-align:center">进程数据类对象</td>
+</tr>
+<tr>
+<td style="text-align:center">displayMessage</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Thread</td>
+<td style="text-align:center">测试缓冲区大小的线程</td>
+</tr>
+<tr>
+<td style="text-align:center">uniqueSerialPortCommunication</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">static SerialPortCommunication</td>
+<td style="text-align:center">静态 SerialPortCommunication </td>
+</tr>
+<tr>
+<td style="text-align:center">serialDataReceivedEventHandler</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">SerialDataReceivedEventHandler</td>
+<td style="text-align:center">数据收到事件处理句柄(null)</td>
+</tr>
+<tr>
+<td style="text-align:center">sendCheckCommunicationStatus</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">static byte[]</td>
+<td style="text-align:center">发送开始发送数据命令字符串</td>
+</tr>
+<tr>
+<td style="text-align:center">sendStartSendData</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">static byte[]</td>
+<td style="text-align:center">发送停止发送命令字符串</td>
+</tr>
+<tr>
+<td style="text-align:center">sendStopSendData</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">static byte[]</td>
+<td style="text-align:center">发送停止发送命令字符串</td>
+</tr>
+<tr>
+<td style="text-align:center">receiveSuccessfulOperation</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">static byte[]</td>
+<td style="text-align:center">操作成功”字符串</td>
+</tr>
+<tr>
+<td style="text-align:center">receiveUnrecognizedCommand</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">static byte[]</td>
+<td style="text-align:center">“命令无法识别”字符串</td>
+</tr>
+<tr>
+<td style="text-align:center">receiveOperationFailure</td>
+<td style="text-align:center">public</td>
+<td style="text-align:center">static byte[]</td>
+<td style="text-align:center">“操作失败”字符串</td>
+</tr>
+</tbody>
+</table>
+<p>表3-2 SerialPortCommunication成员函数</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">SerialPortCommunication()</td>
+<td>单例，私有构造函数</td>
+<td>从文件中初始化SerialPort对象</td>
+</tr>
+<tr>
+<td style="text-align:center">GetInstance()</td>
+<td>返回单例</td>
+<td>无</td>
+</tr>
+<tr>
+<td style="text-align:center">DataReceivedHander(object sender, SerialDataReceivedEventArgs e)</td>
+<td>开始 readThread 线程</td>
+<td>DataReceive 事件所驱动的函数，用于开始接收数据并放入 serialPortData(ArrrayList) 中。</td>
+</tr>
+<tr>
+<td style="text-align:center">readSpeed()</td>
+<td>测试读取速度</td>
+<td>测试函数</td>
+</tr>
+<tr>
+<td style="text-align:center">IsOpen()</td>
+<td>输出串口状态</td>
+<td>测试函数</td>
+</tr>
+<tr>
+<td style="text-align:center">SerialPortText()</td>
+<td>测试串口</td>
+<td>测试函数</td>
+</tr>
+<tr>
+<td style="text-align:center">Open()</td>
+<td>打开串口函数</td>
+<td>Bug修复：重新创建读线程。一个线程运行完后不能再次start，要想再次start，只能new一个</td>
+</tr>
+<tr>
+<td style="text-align:center">Close()</td>
+<td>关闭串口函数</td>
+<td>无</td>
+</tr>
+<tr>
+<td style="text-align:center">getSerialportData()</td>
+<td>获取收到的数据</td>
+<td>获取直接从串口接收的数据</td>
+</tr>
+<tr>
+<td style="text-align:center">send(string command)</td>
+<td>向串口发送字符串</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">sendCommand(Byte[] bytes)</td>
+<td>向串口发送命令</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">Read()</td>
+<td>读数据线程</td>
+<td>无限循环读取缓冲区内的数据</td>
+</tr>
+<tr>
+<td style="text-align:center">readCommand()</td>
+<td>读命令函数</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">attachDataReceivedEvent()</td>
+<td>挂载“数据收到事件处理句柄”到“接收到数据”事件</td>
+<td>向 _serialPort 的 DataReceived 事件添加函数</td>
+</tr>
+<tr>
+<td style="text-align:center">convertParity(String parity)</td>
+<td>将 text 文件中取出的数据做类型转换</td>
+<td>将int类型转换成party</td>
+</tr>
+<tr>
+<td style="text-align:center">convertStopBits(String stopBits)</td>
+<td>将 text 文件中取出的数据做类型转换</td>
+<td>将string类型转换成stopbits</td>
+</tr>
+<tr>
+<td style="text-align:center">convertHandshake(String handshake)</td>
+<td>将 text 文件中取出的数据做类型转换</td>
+<td>将string类型转换成handshake</td>
+</tr>
+<tr>
+<td style="text-align:center">SetPortName(string defaultPortName)</td>
+<td>Display Port values and prompt user to enter a port.</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">SetPortBaudRate(int defaultPortBaudRate)</td>
+<td>Display BaudRate values and prompt user to enter a value.</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">SetPortParity(Parity defaultPortParity)</td>
+<td>Display PortParity values and prompt user to enter a value.</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">SetPortDataBits(int defaultPortDataBits)</td>
+<td>Display DataBits values and prompt user to enter a value.</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">SetPortStopBits(StopBits defaultPortStopBits)</td>
+<td>Display StopBits values and prompt user to enter a value.</td>
+<td>已经废弃</td>
+</tr>
+<tr>
+<td style="text-align:center">SetPortHandshake(Handshake defaultPortHandshake)</td>
+<td>Display Handshake values and prompt user to enter a value.</td>
+<td>已经废弃</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-DataProcess-类"><a href="#4-DataProcess-类" class="headerlink" title="4. DataProcess 类"></a>4. DataProcess 类</h3><p>功能：处理数据</p>
+<p>表4-1 DataProcess 类成员对象</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"> serialportCommunication</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">SerialPortCommunication</td>
+<td style="text-align:center">串口通信对象</td>
+</tr>
+<tr>
+<td style="text-align:center"> processedData</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">ProcessedData</td>
+<td style="text-align:center">处理后的数据缓存对象</td>
+</tr>
+<tr>
+<td style="text-align:center"> packageLength</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">数据包的长度</td>
+</tr>
+<tr>
+<td style="text-align:center"> motionPackageLength</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">运动传感器数据包长度</td>
+</tr>
+<tr>
+<td style="text-align:center"> pressurePackageLength</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">const int</td>
+<td style="text-align:center">压力传感器数据包长度</td>
+</tr>
+<tr>
+<td style="text-align:center"> motionUnit</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">const double</td>
+<td style="text-align:center">（（2/32768）*9.8）</td>
+</tr>
+<tr>
+<td style="text-align:center"> motionGyroUnit</td>
+<td style="text-align:center">private</td>
+<td style="text-align:center">const double</td>
+<td style="text-align:center">（(250/32768)）</td>
+</tr>
+</tbody>
+</table>
+<p>表4-2 DataProcess 类成员函数</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-FileReadWrite-类"><a href="#5-FileReadWrite-类" class="headerlink" title="5. FileReadWrite 类"></a>5. FileReadWrite 类</h3><p>功能：</p>
+<p>表2-1</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>表2-2</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="6-leftInsoleData-类"><a href="#6-leftInsoleData-类" class="headerlink" title="6. leftInsoleData 类"></a>6. leftInsoleData 类</h3><p>功能：</p>
+<p>表2-1</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>表2-2</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="8-rightInsoleData-类"><a href="#8-rightInsoleData-类" class="headerlink" title="8. rightInsoleData 类"></a>8. rightInsoleData 类</h3><p>功能：</p>
+<p>表2-1</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>表2-2</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="9-SerialPortCommunication-类"><a href="#9-SerialPortCommunication-类" class="headerlink" title="9. SerialPortCommunication 类"></a>9. SerialPortCommunication 类</h3><p>功能：</p>
+<p>表2-1</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">变量名称</th>
+<th style="text-align:center">访问权限</th>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>表2-2</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数</th>
+<th>功能</th>
+<th>个人理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+
       
     </div>
 
@@ -644,8 +1475,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -742,6 +1582,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#基本工具类说明"><span class="nav-number">1.</span> <span class="nav-text">基本工具类说明</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#主要对象"><span class="nav-number">1.1.</span> <span class="nav-text">主要对象</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-DataBaseConnect-类"><span class="nav-number">1.1.1.</span> <span class="nav-text">1. DataBaseConnect 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-ProcessedData-类"><span class="nav-number">1.1.2.</span> <span class="nav-text">2. ProcessedData 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-SerialPortCommunication-类"><span class="nav-number">1.1.3.</span> <span class="nav-text">3. SerialPortCommunication 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-DataProcess-类"><span class="nav-number">1.1.4.</span> <span class="nav-text">4. DataProcess 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-FileReadWrite-类"><span class="nav-number">1.1.5.</span> <span class="nav-text">5. FileReadWrite 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-leftInsoleData-类"><span class="nav-number">1.1.6.</span> <span class="nav-text">6. leftInsoleData 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-rightInsoleData-类"><span class="nav-number">1.1.7.</span> <span class="nav-text">8. rightInsoleData 类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-SerialPortCommunication-类"><span class="nav-number">1.1.8.</span> <span class="nav-text">9. SerialPortCommunication 类</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
         <div class="back-to-top">
@@ -776,7 +1632,7 @@
     
       <span class="post-meta-item-text">Symbols count total: </span>
     
-    <span title="Symbols count total">1k</span>
+    <span title="Symbols count total">8k</span>
   
 
   
@@ -787,7 +1643,7 @@
     
       <span class="post-meta-item-text">Reading time total &asymp;</span>
     
-    <span title="Reading time total">1 mins.</span>
+    <span title="Reading time total">7 mins.</span>
   
 </div>
 
